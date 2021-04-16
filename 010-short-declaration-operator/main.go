@@ -9,7 +9,7 @@ func main() {
 	fmt.Println(x)
 	y := 100 + x
 	fmt.Println(y)
-	z := "Caique Azzari :)"
+		z := "Caique Azzari :)"
 	fmt.Println(z)
 	a := x + y
 	fmt.Println(a)
