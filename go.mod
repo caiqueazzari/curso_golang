@@ -1,3 +1,3 @@
-module github.com/caiqueazzari/todd-golang
+module ugabuga
 
 go 1.16
