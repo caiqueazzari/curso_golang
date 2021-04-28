@@ -12,6 +12,6 @@ func main() {
 	nasc := 1930
 	for nasc <= 2021 {
 		fmt.Println(nasc)
-		nasc += 1
+		nasc++
 	}
 }
