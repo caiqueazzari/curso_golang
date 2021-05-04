@@ -16,5 +16,11 @@ func main() {
 	miss := []string{"Miss", "Moneypenny", "Helloooooo, James."}
 
 	xp := [][]string{james, miss}
-	fmt.Println(xp)
+	fmt.Printf("\n%v\n\n", xp)
+	for i, v := range xp {
+			fmt.Printf("String: %v\n\n", i)
+		for x, y := range v {
+			fmt.Printf("\tIndex: %v\tValue: %v\n\n", x, y)
+		}
+	}
 }
